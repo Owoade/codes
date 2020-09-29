@@ -1,0 +1,124 @@
+:root {
+    --black: #323232;
+    --blue: #27b8eb;
+    --greyBg: #ebebeb;
+}
+
+body {
+    background-color: var(--greyBg);
+}
+
+.top-section {
+    background-image: url(../img/about-header2.jpg);
+    height: 40vh;
+    background-position: 10% 50%;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-2em);
+}
+
+.top-section h3 {
+    margin-left: 5%;
+}
+
+.top-section .crumb {
+    margin-right: 5%;
+    font-size: 13px;
+}
+
+.grey-bg {
+    background-color: var(--greyBg);
+    text-align: center;
+    padding: 30px 30px 100px 30px;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.white-bg img {
+    width: 500px;
+}
+
+.white-bg .wrap {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    transform: translateY(-4em);
+    box-shadow: 10px 10px 10px rgba(240, 240, 240, 0.596);
+}
+
+.wrap .text-container {
+    padding: 0 60px;
+    padding-top: 20px;
+    background-color: white;
+    height: 20.1em;
+    overflow-y: hidden;
+}
+
+.white-bg h4 {
+    color: var(--blue);
+}
+
+.grey-bg h4 {
+    color: var(--blue);
+}
+
+.top-section {
+    margin-top: 30px;
+}
+
+footer .bottom {
+    padding-bottom: 10px;
+}
+
+@media(max-width:1202px) {
+    .text-container p:nth-child(3) {
+        display: none;
+    }
+}
+
+@media(max-width:1062px) {
+    .white-bg {
+        padding: 30px 0;
+    }
+    .white-bg .wrap {
+        padding-top: 30px;
+        flex-direction: column;
+        transform: unset;
+        text-align: center;
+        box-shadow: 8px 5px 25px 5px rgb(241, 239, 239);
+    }
+    .text-container p:nth-child(3) {
+        display: block;
+    }
+}
+
+@media(max-width:670px) {
+    .white-bg .wrap {
+        width: 90%;
+    }
+    .white-bg .image-container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .white-bg img {
+        width: 90%;
+    }
+    .wrap .text-container {
+        height: auto;
+        padding: unset;
+        padding: 0 10px;
+    }
+    @media(max-width:480px) {
+        .top-section h3 {
+            font-size: 16px;
+        }
+    }
+}
