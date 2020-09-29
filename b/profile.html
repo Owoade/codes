@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning | Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="../b/remix-icon/remixicon.css">
+    <link rel="stylesheet" href="../b/remix-icon/remixicon.css">
+</head>
+
+<body>
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu">
+            <span><i class="ri-close-line"></i>Close </span>
+            <ul>
+                <li><a href="index.html" class="active"><i class="ri-home-4-fill"></i>Home </i></a></li>
+                <li><a href="#" class="profile"><i class="ri-user-3-line"></i>Profile <i class="fa fa-angle-down arrow"></i></a>
+                    <div class="sub-mobile-menu">
+                        <a href="profile.html">My Profile</a>
+                        <a href="#" class="courses">Courses <i class="fa fa-angle-down arrow"></i></a>
+                        <div class="sub-mobile-menu2">
+                            <a href="courses.html">My Courses</a>
+                            <a href="">Tasks and Assignment</a>
+                            <a href="">Course Form</a>
+                            <a href="">Result Checker</a>
+                        </div>
+                    </div>
+
+                </li>
+                <li><a href="#"><i class="ri-file-line"></i>Admission Application </i></a></li>
+                <li><a href="#"><i class="ri-settings-2-line"></i>Settings </i></a></li>
+                <li><a href="#"><i class="ri-question-line"></i>Need help? Contact Admin </i></a></li>
+                <li><a href="login.html"><i class="ri-logout-box-r-line"></i>Logout </i></a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="img/logo.png" alt=""> </a>
+                <p>e-learning Portal</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="ri-home-4-line"></i>Home </i></a></li>
+                    <li><a href="#" class="active"><i class="ri-user-3-fill"></i>Profile </i></a></li>
+                    <li><a href="#"><i class="ri-file-line"></i>Admission Application </i></a></li>
+                    <li><a href="#"><i class="ri-notification-3-line"></i>Notification </i></a></li>
+                    <li><a href="login.html"><i class="ri-logout-box-r-line"></i>Logout </i></a></li>
+                </ul>
+            </nav>
+            <div class="hamburger"> <i class="ri-notification-3-line bell"></i> <span class="main-menu"><span class="menu">Menu</span><i class="ri-menu-line burger"></i> </span>
+            </div>
+        </div>
+    </header>
+    <section class="grey-container">
+        <div class="container">
+            <div class="sub-menu1 sub-menu">
+                <a href="profile.html" class="sub-link">My Profile</a>
+                <a href="#" class="sub-link">Courses <i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="sub-menu2 sub-menu">
+                <a href="courses.html">My Courses</a>
+                <a href="#">Tasks & Assignment </i></a>
+                <a href="#">Course Form </i></a>
+                <a href="#">Result Checking </i></a>
+            </div>
+            <div class="right">
+                <p id="date">Monday, 25 January, 2020</p>
+
+            </div>
+            <div class="underline"></div>
+            <div class="bread-crumb">
+                <span class="crumb"><p>Dashboard</p>   <i class="fa fa-chevron-right"></i> <p class="crumb-active">Profile</p> </span>
+            </div>
+            <div class="page-header">
+                <h2>My Profile</h2>
+                <div class="page-links">
+                    <a href="#" class="sub-active">Profile</a>
+                    <a href="#">Uploads</a>
+                    <a href="#">Settings</a>
+
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="personal-info-container">
+                    <h3>Personal Information</h3>
+                    <div class="personal-info">
+                        <form action="?attempt" method="POST">
+                            <div class="sub-wrap">
+                                <div class="title">
+                                    <label for="Title">Title <span class="first">*</span></label>
+                                    <select name="Title" id="" class="field">
+                                   <option value="null">Select Title</option>
+                                   <option value="Mr">Mr</option>
+                                    <option value="Mrs">Mrs</option>
+                                </select>
+                                </div>
+
+                                <div class="firstname">
+                                    <label for="">First Name  <span class="first">*</span></label>
+                                    <input type="text" name="" id="" class="field">
+                                </div>
+                                <div class="surname">
+                                    <label for=""> Surname  <span class="first">*</span></label>
+                                    <input type="text" name="" id="" class="field">
+                                </div>
+
+
+                                <div class="small">
+                                    <div class="gender">
+                                        <label for="">Gender <span class="first">*</span></label>
+                                        <select name="" id="" class="field">
+                                            <option value=""></option>
+                                            <option value="">Male</option>
+                                             <option value="">Female</option>
+                                             </select>
+                                    </div>
+                                    <div class="DOB">
+                                        <label for="">Date of birth <span class="first">*</span></label>
+                                        <input type="date" name="" id="" class="field">
+                                    </div>
+                                </div>
+
+                                <div class="state-origin">
+                                    <label for="">State Of Origin <span class="first">*</span></label>
+                                    <select name="" id="" class="field">
+                                            <option value="">Select State of Origin</option>
+                                            <option value="">Abia</option>
+                                             <option value="">Adamawa</option>
+                                             </select>
+                                </div>
+
+
+
+                                <div class="Hometown">
+                                    <label for=""> Hometown  <span class="first">*</span></label>
+                                    <input type="text" name="" id="" class="field">
+                                </div>
+                                <div class="marital">
+                                    <label for="">Marital Stautus <span class="first">*</span></label>
+                                    <select name="" id="" class="field">
+                                            <option value="">Select Marital Status</option>
+                                            <option value="">Single</option>
+                                             <option value="">Married</option>
+                                             </select>
+                                </div>
+
+
+
+
+
+
+
+
+                                <div class="Email">
+                                    <label for=""> Email  <span class="first">*</span></label>
+                                    <input type="email" name="" id="" class="field">
+                                </div>
+                                <div class="Phone">
+                                    <label for=""> Phone Number  <span class="first">*</span></label>
+                                    <input type="number" name="" id="" class="field">
+
+
+                                </div>
+                                <div class="home-address">
+                                    <label for="">Home Address  <span class="first">*</span></label>
+                                    <input type="text" name="" id="" class="field">
+
+                                </div>
+
+
+                                <div class="state">
+                                    <label for="">State <span class="first">*</span></label>
+                                    <select name="" id="" class="field">
+                                            <option value="">Select state of Residence </option>
+                                            <option value="">Abia</option>
+                                             <option value="">Adamawa</option>
+                                             </select>
+                                </div>
+                                <div class="city">
+                                    <label for="">City <span class="first">*</span></label>
+                                    <input type="text" name="" id="" class="field">
+                                </div>
+
+                            </div>
+
+                            <div class="btns">
+                                <button>Cancel</button>
+                                <input type="submit" value="Save Changes">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="profile-photo-container">
+                    <h3>Profile Photo</h3>
+
+                    <div class="profile-photo">
+                        <form action="?attempt">
+                            <div class="img-container">
+                                <img src="img/profile.jpg" alt="">
+                            </div>
+                            <input type="submit" name="" value="Change Photo"> <br>
+                            <input type="submit" value="Save Photo">
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+                <div class="next-of-kin-container">
+                    <h3>Next of Kin Information</h3>
+                    <div class="next-of-kin">
+                        <form action="?attempt" method="POST">
+                            <div class="sub-wrap">
+                                <div class="name">
+                                    <label for="">Next-of-kin <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="relationship">
+                                    <label for="">Relationship <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="number">
+                                    <label for="">Phone Number <span class="first">*</span></label>
+                                    <input type="number" name="" id="">
+                                </div>
+                                <div class="address">
+                                    <label for="">Home Address  <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="occupation">
+                                    <label for="">Occupation <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+
+                            <div class="btns">
+                                <button>Cancel</button>
+                                <input type="submit" value="Save Changes">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="sponsor-container">
+                    <h3>Sponsor's Information</h3>
+                    <div class="sponsor">
+                        <form action="?attempt" method="POST">
+                            <div class="sub-wrap">
+
+                                <div class="name">
+                                    <label for="">Sponsor <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+
+
+                                <div class="relationship">
+                                    <label for="">Relationship <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="number">
+                                    <label for="">Phone Number <span class="first">*</span></label>
+                                    <input type="number" name="" id="">
+                                </div>
+
+                                <div class="address">
+                                    <div class="address">
+                                        <label for="">Home Address  <span class="first">*</span></label>
+                                        <input type="text" name="" id="">
+                                    </div>
+                                </div>
+
+                                <div class="occupation">
+                                    <label for="">Occupation <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+
+                            <div class="btns">
+                                <button>Cancel</button>
+                                <input type="submit" value="Save Changes">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="department-info-container">
+                    <h3>Department Information</h3>
+                    <div class="department-info">
+                        <form action="?attempt" method="POST">
+                            <div class="sub-wrap">
+                                <div class="dept-name">
+                                    <label for="">Department <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="Matric">
+                                    <label for="">Matric <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+
+
+
+                                <div class="level">
+                                    <label for="">Level <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="Semester">
+                                    <label for="">Semester <span class="first">*</span></label>
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+
+
+                            <div class="btns">
+                                <button>Cancel</button>
+                                <input type="submit" value="Save Changes">
+                            </div>
+                        </form>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="container">
+
+            <ul>
+                <li>
+                    <h3>Quick Links</h3>
+                </li>
+                <li><a href="#">Print course forms</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Result Checking</a></li>
+                <li><a href="#">E-Transcript Application</a></li>
+                <li><a href="#">Booknarks</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Payments</h3>
+                </li>
+                <li><a href="#">Application Payments</a></li>
+
+            </ul>
+            <ul>
+                <li>
+                    <h3>News</h3>
+                </li>
+                <li><a href="#">Provost Matriculation speech</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Contact Us</h3>
+                </li>
+                <li>
+                    <p>college@fcahptib.edu.ng</p>
+                    <a href="#">registrar@fcahptib.edu.ng</a>
+                </li>
+                <li>
+                    <p> Support Line: <br> +234 906 670 7545 <br> +234 906 670 7545 </p>
+                </li>
+                <li class="last-list-item">
+                    <p> FCAHPTIB,IAR&T, Moor <br>Plantation,Apata, Ibadan, Oyo <br> State, PMB 5029</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>About</h3>
+                </li>
+                <li>
+                    <a href="#"> <img src="img/logo.png" alt=""></a>
+                    <p>e-learning Portal</p>
+                </li>
+                <li>
+                    <p>Citadel of seamless, affordable and effective learning with World-Class technology </p>
+                </li>
+                <li>
+                    <p> &copy; 2020 FCAHPT. All Right Reserved.</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/profile.js"></script>
+    <script src="js/utility.js"></script>
+
+</body>
+
+</html>
