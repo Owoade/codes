@@ -1,0 +1,324 @@
+                                            :root {
+                                               --black: rgb(85, 83, 83);
+                                               --moreBlack: rgb(32, 32, 32);
+                                           }
+                                           
+                                           body {
+                                               margin: 0;
+                                               padding: 0;
+                                               box-sizing: border-box;
+                                               font-family: manrope;
+                                               overflow-x: hidden;
+                                               color: var(--moreBlack);
+                                               background-color: #fbfbfb;
+                                           }
+                                           
+                                           .container {
+                                               width: 85%;
+                                               margin: 0 auto;
+                                           }
+                                           
+                                           ul {
+                                               margin: 0;
+                                               padding: 0;
+                                               list-style: none;
+                                           }
+                                           
+                                           a {
+                                               text-decoration: none;
+                                           }
+                                           
+                                           .dropdown {
+                                               background-color: #fbfbfb;
+                                               padding-bottom: 30px;
+                                               color: var(--black);
+                                           }
+                                           
+                                           .dropdown .container {
+                                               display: flex;
+                                               justify-content: space-between;
+                                           }
+                                           
+                                           .dropdown nav ul {
+                                               display: flex;
+                                               margin-top: 25px;
+                                           }
+                                           
+                                           nav li {
+                                               padding-right: 4rem;
+                                           }
+                                           
+                                           nav a {
+                                               color: var(--black);
+                                               position: relative;
+                                           }
+                                           
+                                           .contact h3 {
+                                               color: var(--black);
+                                           }
+                                           
+                                           .contact p,
+                                           .contact span {
+                                               font-size: 13px;
+                                           }
+                                           
+                                           .bottom-header {
+                                               margin-top: 35px;
+                                           }
+                                           
+                                           .bottom-header .container {
+                                               display: flex;
+                                               justify-content: space-between;
+                                           }
+                                           
+                                           .bottom-header i {
+                                               font-size: 18px;
+                                               padding-left: 10px;
+                                           }
+                                           
+                                           .icons {
+                                               display: flex;
+                                               width: 200px;
+                                               justify-content: space-between;
+                                               position: relative;
+                                           }
+                                           
+                                           .icon {
+                                               margin-top: 8px;
+                                               display: flex;
+                                           }
+                                           
+                                           .icon i {
+                                               padding-right: 10px;
+                                           }
+                                           
+                                           .burger {
+                                               margin-left: 20px;
+                                           }
+                                           
+                                           .burger .line {
+                                               width: 32px;
+                                               height: 2px;
+                                               background-color: var(--moreBlack);
+                                               margin: 8px 0;
+                                           }
+                                           
+                                           .push-up i {
+                                               font-size: 40px;
+                                           }
+                                           
+                                           .bottom-header {
+                                               padding-top: 30px;
+                                               background-color: white;
+                                           }
+                                           
+                                           .bottom-header span {
+                                               font-family: cursive;
+                                               font-size: 18px;
+                                           }
+                                           
+                                           .portfolio-contents {
+                                               background-color: white;
+                                           }
+                                           
+                                           .portfolio-contents .descriptions {
+                                               display: flex;
+                                               width: 100%;
+                                               justify-content: space-between;
+                                           }
+                                           
+                                           .portfolio-contents .tabs {
+                                               display: flex;
+                                               margin-top: 7.5em;
+                                               justify-content: space-between;
+                                               width: 35%;
+                                               position: relative;
+                                           }
+                                           
+                                           .portfolio-contents .tabs p {
+                                               font-size: 14px;
+                                               position: relative;
+                                           }
+                                           
+                                           .portfolio-card p:last-child {
+                                               font-size: 12px;
+                                           }
+                                           
+                                           .portfolio-cards {
+                                               margin-top: 28px;
+                                               padding-bottom: 130px;
+                                           }
+                                           
+                                           .portfolio-cards .wrap {
+                                               display: grid;
+                                               grid-template-columns: repeat(3, 1fr);
+                                               column-gap: 4.2%;
+                                               padding-bottom: 30px;
+                                           }
+                                           
+                                           .portfolio-card {
+                                               width: 100%;
+                                               margin-bottom: 20px;
+                                           }
+                                           
+                                           .portfolio-card img {
+                                               width: 100%;
+                                           }
+                                           
+                                           .portfolio-cards button {
+                                               background-color: transparent;
+                                               border: 1px solid var(--moreBlack);
+                                               width: 150px;
+                                               padding: 1em 0;
+                                               display: block;
+                                               margin: auto;
+                                               font-size: 15px;
+                                               color: var(--moreBlack);
+                                           }
+                                           
+                                           footer {
+                                               text-align: center;
+                                               background-color: #f2f2f2;
+                                               padding: 3em 0;
+                                           }
+                                           
+                                           footer .social-links {
+                                               margin: auto;
+                                           }
+                                           
+                                           footer .social-links a {
+                                               margin: 20px;
+                                               color: var(--moreBlack);
+                                           }
+                                           
+                                           footer span {
+                                               display: block;
+                                               margin-top: 30px;
+                                               color: var(--black);
+                                               font-size: 14px;
+                                           }
+                                           
+                                           footer span i {
+                                               padding-left: 5px;
+                                               color: red;
+                                           }
+                                           /* Icons */
+                                           
+                                           #on {
+                                               display: none;
+                                           }
+                                           
+                                           #close {
+                                               display: none;
+                                           }
+                                           /* Custom class */
+                                           
+                                           .underline {
+                                               width: 30px;
+                                               height: 3px;
+                                               background-color: var(--black);
+                                           }
+                                           
+                                           .underline-tab {
+                                               width: 30px;
+                                               height: 3px;
+                                               background-color: var(--black);
+                                               position: absolute;
+                                               bottom: 20px;
+                                               left: -5px;
+                                           }
+                                           
+                                           @media (max-width:961px) {
+                                               nav li {
+                                                   padding-right: 2rem;
+                                               }
+                                               .portfolio-contents .tabs {
+                                                   width: 45%;
+                                               }
+                                           }
+                                           
+                                           @media (max-width:880px) {}
+                                           
+                                           @media (max-width:810px) {
+                                               .dropdown .container {
+                                                   display: block;
+                                               }
+                                               .dropdown .contact {
+                                                   margin-top: 40px;
+                                               }
+                                           }
+                                           
+                                           @media (max-width:745px) {
+                                               .portfolio-contents .descriptions {
+                                                   display: block;
+                                                   width: 100%;
+                                               }
+                                               .portfolio-contents .tabs {
+                                                   margin-top: unset;
+                                                   width: 300px;
+                                               }
+                                               .bottom-header {
+                                                   transform: translateY(1.2em);
+                                               }
+                                               .portfolio-contents {
+                                                   padding-top: 80px;
+                                               }
+                                               .underline-tab {
+                                                   bottom: 10px;
+                                               }
+                                               .portfolio-cards .wrap {
+                                                   grid-template-columns: repeat(2, 1fr);
+                                               }
+                                           }
+                                           
+                                           @media (max-width:600px) {
+                                               .portfolio-cards .wrap {
+                                                   grid-template-columns: repeat(1, 1fr);
+                                               }
+                                           }
+                                           
+                                           @media (max-width:510px) {
+                                               .dropdown nav ul {
+                                                   display: block;
+                                               }
+                                               nav ul {
+                                                   line-height: 3em;
+                                               }
+                                               .underline {
+                                                   transform: translateY(-.7em);
+                                               }
+                                           }
+                                           
+                                           @media (max-width:420px) {
+                                               p {
+                                                   font-size: 13px;
+                                               }
+                                               .burger {
+                                                   margin-top: 5px;
+                                               }
+                                               .burger .line {
+                                                   width: 20px;
+                                                   height: 2px;
+                                                   background-color: var(--moreBlack);
+                                                   margin: 5px 0;
+                                               }
+                                               .icon i {
+                                                   padding-right: 18px;
+                                               }
+                                               .icons {
+                                                   display: flex;
+                                                   width: 180px;
+                                                   flex-direction: column-reverse;
+                                                   justify-content: flex-end;
+                                                   position: relative;
+                                               }
+                                               .icon {
+                                                   position: absolute;
+                                                   right: -20px;
+                                                   bottom: -50px;
+                                               }
+                                               .burger {
+                                                   position: absolute;
+                                                   right: 0;
+                                               }
+                                           }
